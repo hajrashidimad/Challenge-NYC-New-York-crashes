@@ -1,5 +1,5 @@
 # Challenge-NYC-New-York-crashes
-![n-y-c](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.u2u.be%2Fbram%2Fpost%2Fintroduction-to-business-intelligence&psig=AOvVaw0sl6cyJTyWwxQdAWt67X6Z&ust=1607762690079000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDesvnExe0CFQAAAAAdAAAAABAD)
+![n-y-c](https://dataladder.com/wp-content/uploads/2020/03/data-cleaning-tool.jpg)
 
 ## Why
 before enter the data in our ml module, we should do an important steps, (cleaning,  processing, ....ect).
