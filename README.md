@@ -24,14 +24,15 @@ you will find in the data folder a csv file which you can use or download it [he
  | Content | Description |
  |---|---|
  cleaned_data.csv| the result after a normal cleaning
- hard_cleaned_data.csv| if you use this file for training you module, you should creat an onother script that transfer the location to real adresse
+ hard_cleaned_data.csv| if you use this file for training you module, you should creat an onother script that transfer the location to real adresse\
+ 
 you can also get the address from any location by using *geopy* package
 
 ```bash
 pip install geopy
 ```
 you find more information in the link below:\
-![Read the Docs](https://geopy.readthedocs.io/en/latest/)
+[Read the Docs](https://geopy.readthedocs.io/en/latest/)
 
 
 ## Team
