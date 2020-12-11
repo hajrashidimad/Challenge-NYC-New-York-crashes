@@ -9,7 +9,7 @@ class Cleaning:
     def open_data(self):
         """ iport csv file either by absolut path, either by relative path
         """
-        df = pd.read_csv(r'/home/imad/Becode/Projects/Challeng-NYC-New/nyc-crashes/data_100000.csv') 
+        df = pd.read_csv(r'/home/imad/Becode/Projects/Challeng-NYC-New/data/data_100000.csv') 
         # df = pd.read_csv("data_100000.csv")
 
         return df
@@ -54,8 +54,8 @@ class Cleaning:
         df['zip_code'] = df['zip_code'].fillna(0)
         df['contributing_factor_vehicle_1'] = df['contributing_factor_vehicle_1'].fillna("Unspecified")
         df['contributing_factor_vehicle_2'] = df['contributing_factor_vehicle_2'].fillna("Unspecified")
-        df['vehicle_type_code1'] = df['vehicle_type_code1'].fillna(df["vehicle_type_code1"][1])
-        df['vehicle_type_code2'] = df['vehicle_type_code2'].fillna(df["vehicle_type_code1"][1])
+        df['vehicle_type_code1'] = df['vehicle_type_code1'].fillna("Unspecified")
+        df['vehicle_type_code2'] = df['vehicle_type_code2'].fillna("Unspecified")
         return df
     def drop_row_non_adresse(self, df):
         """
