@@ -31,7 +31,7 @@ you can also get the address from any location by using *geopy* package
 pip install geopy
 ```
 you find more information in the link below:\
-[Read the Docs] (https://geopy.readthedocs.io/en/latest/)
+[Read the Docs](https://geopy.readthedocs.io/en/latest/)
 
 
 ## Team
